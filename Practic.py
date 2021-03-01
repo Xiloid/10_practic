@@ -22,8 +22,8 @@ print(b)
 # 5. Вставьте в средину списка число 11.
 v = len(b)
 v //= 2
-c = b.insert(v, 11)
-print(c)
+b.insert(v, 11)
+print(b)
 
 # 6. Запишите в файл list_info.txt строчки
 #    - 1. количество элементом списка num_list
