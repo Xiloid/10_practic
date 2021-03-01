@@ -8,7 +8,6 @@ x += 3
 print(x)
 
 # 3. Сгенерируйте список num_list длиной x, из случайных чисел от 1 до x
-#num_list = random.randint(1, x)
 num_list = []
 for i in range(x):
     f = random.randint(1, x)
@@ -21,7 +20,10 @@ b = list(reversed(num_list))
 print(b)
 
 # 5. Вставьте в средину списка число 11.
-#insert
+v = len(b)
+v //= 2
+c = b.insert(v, 11)
+print(c)
 
 # 6. Запишите в файл list_info.txt строчки
 #    - 1. количество элементом списка num_list
